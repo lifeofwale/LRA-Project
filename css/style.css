@@ -24,6 +24,10 @@ h6 {
   color: #434343;
 }
 
+h4 {
+  font-size: 16px;
+}
+
 label {
   font-size: 13px;
   font-weight: normal;
@@ -92,7 +96,7 @@ label {
 }
 
 .caratop .carousel-inner .carousel-caption p {
-  font-size: 17px;
+  font-size: 16px;
 }
 
 .formtop {
@@ -411,10 +415,14 @@ label {
   font-size: 18px;
 }
 
+.header {
+  margin-top: 43px;
+}
+
 .content1 {
   padding: 20px;
   color: #45526b;
-  margin-top: 30px;
+  margin-top: 21px;
 }
 
 .content1 label {
@@ -461,6 +469,11 @@ label {
   border: solid 1px #ebebf2;
 }
 
+.content1 input.datefade {
+  color: #d8d8d8;
+  font-size: 14px;
+}
+
 .content1 .editt button:hover {
   background-color: #5CCE77;
 }
@@ -474,27 +487,31 @@ label {
   color: #45d88e;
 }
 
-.content2 select {
+.content2 input {
   font-size: 13px;
-  height: 48px;
+  height: 54px;
   border-radius: 3px;
   background-color: #fdfdfd;
 }
 
 .content2 ::-webkit-input-placeholder {
   font-size: 13px;
+  opacity: 0.5;
 }
 
 .content2 :-ms-input-placeholder {
   font-size: 13px;
+  opacity: 0.5;
 }
 
 .content2 ::-ms-input-placeholder {
   font-size: 13px;
+  opacity: 0.5;
 }
 
 .content2 ::placeholder {
   font-size: 13px;
+  opacity: 0.5;
 }
 
 .content2 table {
@@ -519,6 +536,11 @@ label {
 
 .content2 button {
   font-size: 13px;
+}
+
+.content2 .modal .modal-content {
+  -webkit-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5);
 }
 
 .content2 .modal .modal-title {
@@ -551,8 +573,55 @@ label {
   font-size: 12px;
 }
 
+.content2 .pend a {
+  color: #45526b;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.content2 .pend a.btn-pend {
+  max-width: 90px;
+  height: 28px;
+  border-radius: 14px;
+  background-color: rgba(237, 93, 93, 0.3);
+}
+
+.content2 .paid a {
+  color: #45526b;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.content2 .paid a.btn-paid {
+  width: 90px;
+  height: 28px;
+  border-radius: 14px;
+  background-color: rgba(69, 216, 142, 0.3);
+}
+
+.content2 .action a {
+  color: #45526b;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.content2 .action .fa-trash {
+  color: #ed5d5d;
+  padding-right: 8px;
+}
+
+.content2 .action .fa-eye {
+  color: #45d88e;
+  padding-right: 8px;
+}
+
+.pag p {
+  font-size: 14px;
+}
+
 .pag a {
   color: #45d88e;
+  font-size: 14px;
 }
 
 .pag .active .page-link {
@@ -561,7 +630,9 @@ label {
 }
 
 .pag .page-link {
-  margin-left: 5px !important;
+  width: 40px;
+  height: 40px;
+  margin-left: 4px;
 }
 
 .reg select {
@@ -621,6 +692,54 @@ label {
 .reg .labelname .difcolor {
   color: #b8c3d4;
   font-size: 12px;
+}
+
+.wrapper {
+  max-width: 655px;
+}
+
+.wrapper .card {
+  border: solid 1px #e0e2e5;
+}
+
+.wrapper th {
+  padding: 20px 20px 20px 20px;
+  font-size: 12px;
+}
+
+.wrapper td {
+  padding: 20px 20px 20px 20px;
+  font-size: 15px;
+}
+
+.wrapper a.colorr {
+  color: #45d88e;
+}
+
+.wrapper .table td, .wrapper .table th {
+  border-top: 0px;
+  vertical-align: top;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.wrapper .dot {
+  width: 10px;
+  height: 10px;
+  background-color: #45d88e;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.wrapper .generate {
+  background-color: #45d88e;
+  font-size: 13px;
+  font-weight: 600;
+  height: 49px;
+}
+
+.wrapper .savebtn {
+  font-size: 13px;
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=style.css.map */

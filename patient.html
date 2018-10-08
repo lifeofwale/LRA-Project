@@ -42,11 +42,22 @@
                                         <!-- 1 -->
                                 </li>
                                 <li class="nav-item mb-2">
-                                    <a class="nav-link" href="#">
+                                    <a class="nav-link" data-toggle="collapse" href="#patient" aria-expanded="false" aria-controls="patient">
                                                 <img src="image/twotone-how-to-reg-24-px.svg"
                                                 class="pr-2">
                                             <span>Patients</span>
                                     </a>
+
+                                    <div class="collapse" id="patient">
+                                        <ul class="nav flex-column ">
+                                          <li class="nav-item">
+                                            <a class="nav-link" href="pages/ui-features/buttons.html">Search patient</a>
+                                          </li>
+                                          <li class="nav-item">
+                                            <a class="nav-link" href="pages/ui-features/typography.html">Check ready</a>
+                                          </li>
+                                        </ul>
+                                      </div>
                                     <!-- 2 -->
                                </li>
                                <li class="nav-item mb-2">
@@ -155,7 +166,7 @@
                                         </div>
                     </div>
 
-                    <div class="container bg-white content1">
+                    <div class="container bg-white content1" style="border: solid 1px #e0e2e5;">
 
                         <div class="form-row justify-content-around py-2 ">
                                         <div class="form-group col-md-3">
@@ -194,18 +205,76 @@
                                                   </tr>
                                                 </thead>
                                                 <tbody>
+                                                  <tr>
+                                                    <th scope="row">1</th>
+                                                    <td>Oluwagbemiga Joshua</td>
+                                                    <td>000-000-000</td>
+                                                    <td>6</td>
+                                                    <td>Male</td>
+                                                    <td>28 Jul 2018</td>
+                                                    <td>
+                                                        <a href="" data-toggle="modal" data-target="#ModalCenter">Initiate request</a>
+                                                        <div class="modal fade" id="ModalCenter" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
+                                                                        <div class="modal-dialog modal-dialog-centered" role="document">
+                                                                          <div class="modal-content">
+                                                                            <div class="modal-header text-center rounded-0">
+
+
+                                                                              <h5 class="modal-title w-100"  id="ModalCenterTitle">SELECT REQUEST TYPE</h5>
+                                                                             
+                                                                            </div>
+                                                                            <div class="modal-body">
+                                                                                     
+                                                                                                        <div class="form-group px-4">
+
+                                                                                                                        <label for="inputService">Select a service</label>
+                                                                                                                        <select id="inputService" class="form-control">
+                                                                                                                                        <option selected>Medical report for fitness</option>
+                                                                                                                                        <option>...</option>
+                                                                                                                        </select>
+                                                                                                        </div>
+                                                                                      
+                                                                            </div>
+                                                                            <div class="modal-footer">
+                                                                              <button type="button" class="btn btncan" data-dismiss="modal">CANCEL</button>
+                                                                              <button type="button" class="btn btn-primary">INITIATE</button>
+                                                                            </div>
+                                                                          </div>
+                                                                        </div>
+                                                                      </div>
+                                                
+                                                </td>
+                                                  </tr>
+
+                                                  <tr class="strip">
+                                                                <th scope="row">2</th>
+                                                                <td>Joshua Black</td>
+                                                                <td>JOE-000-001</td>
+                                                                <td>6</td>
+                                                                <td>Female</td>
+                                                                <td>28 Jul 2018</td>
+                                                                <td><a href="">Initiate request</a></td>
+                                                              </tr>
+                                                 
+                                
                                                 </tbody>
                                               </table>
-                                              <div class="row justify-content-center" style="height:30vh;"> 
-                                                    <img src="image/empty.svg"
-                                                    class="thought">
-                                              </div>
-                                              <p class="text-center pt-5 size">No Record Found</p>
-                                              <p class="text-center pb-5 size2">Try changing the filter or search term  or <span><a href="">Register Patient</a> </span></p>
 
                     </div>
                     
-              
+                    <div class="container pag px-0">
+                                <nav>
+                                          <ul class="pagination justify-content-end">
+                                            
+                                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                            <li class="page-item">
+                                              <a class="page-link" href="#">...</a>
+                                            </li>
+                                          </ul>
+                                        </nav>
+                      </div>
             </main>
         </div>
       
