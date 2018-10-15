@@ -721,6 +721,14 @@ label {
   overflow-y: scroll;
 }
 
+.content2 .rowlen input.custom-control-input {
+  margin-left: 15px;
+}
+
+.content2 input.custom-control-input {
+  margin-left: 15px;
+}
+
 .content2 .rowrole {
   margin-bottom: 100px;
   margin-top: 8px;
@@ -740,6 +748,14 @@ label {
 }
 
 .content2 button.btn-createrole a {
+  text-decoration: none;
+}
+
+.content2 button.btn-transp {
+  background-color: white;
+}
+
+.content2 button.btn-transp a {
   text-decoration: none;
 }
 
