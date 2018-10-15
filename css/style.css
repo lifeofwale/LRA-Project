@@ -4,6 +4,29 @@ body {
   color: #45526b;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px grey;
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #515f8a;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #515f8a;
+}
+
 h5 {
   font-size: 20px;
   font-weight: 600;
@@ -480,6 +503,7 @@ label {
 
 .content2 {
   color: #45526b;
+  /* Rounded sliders */
 }
 
 .content2 a {
@@ -615,6 +639,99 @@ label {
   padding-right: 8px;
 }
 
+.content2 .action .fa-pencil-alt {
+  color: #45d88e;
+  padding-right: 8px;
+}
+
+.content2 .switch {
+  position: relative;
+  display: inline-block;
+  width: 34px;
+  height: 20px;
+}
+
+.content2 .switch input {
+  display: none;
+}
+
+.content2 .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  -o-transition: .4s;
+  transition: .4s;
+}
+
+.content2 .slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 2.5px;
+  background-color: white;
+  -webkit-transition: .4s;
+  -o-transition: .4s;
+  transition: .4s;
+}
+
+.content2 input:checked + .slider {
+  background-color: #45d88e;
+}
+
+.content2 input:focus + .slider {
+  -webkit-box-shadow: 0 0 1px #45d88e;
+  box-shadow: 0 0 1px #45d88e;
+}
+
+.content2 input:checked + .slider:before {
+  -webkit-transform: translateX(14px);
+  -ms-transform: translateX(10px);
+  transform: translateX(10px);
+}
+
+.content2 .slider.round {
+  border-radius: 34px;
+}
+
+.content2 .slider.round:before {
+  border-radius: 50%;
+}
+
+.content2 .rowpad {
+  padding: 32px;
+}
+
+.content2 .rowpad input.long {
+  min-width: 350px;
+  height: 48px;
+  border-radius: 3px;
+  border: solid 1px #e5e5e5;
+  background-color: #fdfdfd;
+}
+
+.content2 .rowlen {
+  height: 200px;
+  overflow-y: scroll;
+}
+
+.content2 button.btn-createrole {
+  width: 140px;
+  height: 49px;
+  border-radius: 4px;
+  background-color: #45d88e;
+}
+
+.content2 button.btn-createrole a {
+  text-decoration: none;
+}
+
 .pag p {
   font-size: 14px;
 }
@@ -740,6 +857,206 @@ label {
 .wrapper .savebtn {
   font-size: 13px;
   font-weight: 600;
+}
+
+.certform a.nav-link {
+  font-size: 13px;
+  color: #45526b;
+  text-decoration: none;
+}
+
+.certform ::-webkit-input-placeholder {
+  color: #d8d8d8;
+  font-size: 14px;
+  opacity: 0.4;
+}
+
+.certform :-ms-input-placeholder {
+  color: #d8d8d8;
+  font-size: 14px;
+  opacity: 0.4;
+}
+
+.certform ::-ms-input-placeholder {
+  color: #d8d8d8;
+  font-size: 14px;
+  opacity: 0.4;
+}
+
+.certform ::placeholder {
+  color: #d8d8d8;
+  font-size: 14px;
+  opacity: 0.4;
+}
+
+.certform .certhead {
+  padding-top: 32px;
+  padding-bottom: 51px;
+}
+
+.certform .details input {
+  width: 317px;
+  height: 54px;
+  border-radius: 3px;
+  background-color: #fdfdfd;
+  border: solid 1px #ebebf2;
+}
+
+.certform .details label.titresults {
+  font-size: 16px;
+}
+
+.certform .details li.results {
+  font-size: 14px;
+}
+
+.certform p.cour {
+  font-family: Courier;
+  font-size: 14px;
+}
+
+.certform .certbody {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.certform .certbody h5 {
+  font-size: 17px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.7px;
+  text-align: center;
+  color: #45526b;
+  text-decoration: underline;
+}
+
+.certform .certbody p.intro {
+  padding-top: 54px;
+  padding-bottom: 24px;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.7px;
+  color: #45526b;
+}
+
+.certform .certbody p.test {
+  padding-bottom: 47px;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.7px;
+  color: #45526b;
+}
+
+.certform .certbody p.certend {
+  padding-top: 64px;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.7px;
+}
+
+.certform .certbody p.docsdept {
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.certform .stamp {
+  padding-top: 40px;
+}
+
+.certform .stamp label.docssign {
+  font-size: 14px;
+  padding-right: 15px;
+}
+
+.certform .stamp input.readdocname {
+  height: 54px;
+  border-radius: 3px;
+  border: solid 1px #ebebf2;
+  background-color: #fdfdfd;
+  font-size: 12px;
+}
+
+.certform .stamp button.btn-preview {
+  width: 140px;
+  height: 49px;
+  border-radius: 4px;
+  background-color: #45d88e;
+  color: white;
+  font-size: 13px;
+}
+
+.certform .stamp h5.modal-title {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.certform .stamp .contentmodal {
+  max-width: 877px;
+}
+
+.certform .stamp .modal-header {
+  background-color: #f8f9fd;
+}
+
+.certform .stamp .body-modal {
+  height: 304px;
+  overflow-y: scroll;
+}
+
+.certform .stamp .body-modal p {
+  font-size: 12px;
+  font-weight: 300;
+  opacity: 0.4;
+}
+
+.certform .stamp .body-modal .wrap {
+  max-width: 350px;
+  height: 77px;
+  background-color: #fdfdfd;
+  border: solid 1px #ebebf2;
+  padding-top: 10px;
+}
+
+.certform .stamp .footer-modal {
+  background-color: #f8f9fd;
+}
+
+.certform .stamp .footer-modal button.btn-close {
+  font-size: 14px;
+  font-weight: 600;
+  background-color: transparent;
+}
+
+.certform .stamp .footer-modal button.btn-savve {
+  font-size: 14px;
+  font-weight: 600;
+  width: 140px;
+  height: 49px;
+  color: white;
+  border-radius: 4px;
+  background-color: #45d88e;
+}
+
+.certform p.signature {
+  padding-bottom: 40px;
+  opacity: 0.4;
+}
+
+.certform p.daate {
+  font-family: CourierNewPSMT;
+  opacity: 0.4;
 }
 
 /*# sourceMappingURL=style.css.map */

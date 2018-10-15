@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    
     <title>LRA</title>
   </head>
   <body class="h-100">
@@ -145,7 +146,7 @@
 
                     <!-- body -->
 
-                    <!-- <div class="container-fluid p-0 search">
+                    <div class="container-fluid p-0 search">
                                 <div class="main-navbar bg-white">
                                                 <nav class="navbar d-flex align-items-stretch navbar-light flex-md-nowrap p-0">
                                                         <form action="#" class="main-navbar__search w-75" style=" background-color: #8188bf;">
@@ -164,75 +165,121 @@
                                                                 class="adduser pr-2 pl-3"> <span class="d-none d-lg-inline d-md-inline"> Register New Patient</span></button>
                                                 </nav>
                                         </div>
-                    </div> -->
-                    <!-- page header -->
-                    
-                        <div class="container header">
-                            <div class="row justify-content-start">
-                                <h6><a href="" class="backto"><i class="fas fa-long-arrow-alt-left pr-2"></i>Back to Request</a></h6>
-                              
-                            </div>
-                        </div>
+                    </div>
 
-
-                        <!-- view request body -->
-                        <h5 class="text-center mt-4">Request</h5>
-
-                        <div class="container wrapper mb-5">
-                            <div class="container">
-                                <div class="card">
-                                    <div class="card-body p-0">
-                                            <table class="table table-hover">
-                                          
-                                                    <tbody>
-                                                      <tr style="padding-top:20px;">
-                                                        <th scope="row">FULL NAME</th>
-                                                        <td>Oluwagbemiga Joshua</td>
-                                                       
-                                                      </tr>
-                                                      <tr>
-                                                        <th scope="row">JOE NOS</th>
-                                                        <td>000-000-000-001</td>
-                                                        
-                                                      </tr>
-                                                      <tr>
-                                                        <th scope="row">AMOUNT</th>
-                                                        <td>₦ 10,000</td>
-                                                      </tr>
-                                                      <tr>
-                                                            <th scope="row">TRANSACTION ID</th>
-                                                            <td>000-000-001</td>
-                                                          </tr>
-                                                          <tr>
-                                                                <th scope="row">SERVICE</th>
-                                                                <td>
-                                                                    <p> <span class="pr-3"> Medical Report for Fitness </span><span><a href="" class="colorr">Change</a></span></p>
-                                                                    <a href=""><i class="fas fa-plus-circle pr-2"></i>Add new service</a>
-                                                                   
-                                                                
-                                                                </td>
-                                                          </tr>
-                                                          <tr>
-                                                                <th scope="row">DATE</th>
-                                                                <td>19 Jun 2018</td>
-                                                          </tr>
-
-                                                          <tr>
-                                                                <th scope="row">PAYMENT STATUS</th>
-                                                                <td><span class="dot"></span> Paid</td>
-                                                          </tr>   
-                                                    
-                                                         </tbody>
-                                                  </table>
+            
+                    <!-- open -->
+                     <!--  -->
+                     <div class="container content1">
+                         <div class="row justify-content-start">
+                            <h5 class="align-self-center"><img src="image/adduser.svg"
+                              class="adduser pr-2"><span>Create new user</span> </h5>
+                           
+                         </div>
+                     </div>
+                     <div class="container  bg-white content2 mb-5">
+                            <div class="form-row rowpad">
+                              <div class="col-sm-4">
+                                  <div class="form-group">
+                                      <label for="inputFullname">Full Name</label>
+                                      <input type="text" class="form-control long" id="inputFullname" placeholder="|John">
                                     </div>
-                                    <div class="row justify-content-center mt-5 mb-4">
-                                            <button class="btn savebtn mr-3">SAVE</button>
-                                            <button class="btn generate text-white">GENERATE REPORT</button>
+                                    <div class="form-group">
+                                      <label for="inputsystemname">System Name</label>
+                                      <input type="text" class="form-control long" id="inputsystemname" placeholder="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="inputdesc">Description</label>
+                                        <input type="text" class="form-control long" id="inputdesc" placeholder="|Enter Address">
+                                      </div>
+                                      <!-- join -->
+                                            <!-- end form -->
+                            <p>Attach Priviledge</p>
+                            <div class="form-row rowlen">
+                              <div class="col-sm-6">
+                                <!-- 1 -->
+                                <div class="custom-control custom-checkbox checkbox my-2">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck">
+                                    <label class="custom-control-label" for="customCheck">Site Administrator</label>
+                                  </div>
+                                  <!-- 2 -->
+                                  <div class="custom-control custom-checkbox checkbox my-2">
+                                      <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                      <label class="custom-control-label" for="customCheck2">Administrator</label>
+                                    </div>
+                                    <!-- 3 -->
+                                    <div class="custom-control custom-checkbox checkbox my-2">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck3">
+                                        <label class="custom-control-label" for="customCheck3">Administrator</label>
+                                      </div>
+                                      <div class="custom-control custom-checkbox checkbox my-2">
+                                          <input type="checkbox" class="custom-control-input" id="customCheck4">
+                                          <label class="custom-control-label" for="customCheck4">Administrator</label>
                                         </div>
+                                        <div class="custom-control custom-checkbox checkbox my-2">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck5">
+                                            <label class="custom-control-label" for="customCheck5">Administrator</label>
+                                          </div>
+                                          <!--  -->
+                                          <div class="custom-control custom-checkbox checkbox my-2">
+                                              <input type="checkbox" class="custom-control-input" id="customCheck11">
+                                              <label class="custom-control-label" for="customCheck11">Administrator</label>
+                                            </div>
+                              </div>
+                              <div class="col-sm-6">
+                                   <!-- 1 -->
+                                   <div class="custom-control custom-checkbox checkbox my-2">
+                                      <input type="checkbox" class="custom-control-input" id="customCheck6">
+                                      <label class="custom-control-label" for="customCheck6">Site Administrator</label>
+                                    </div>
+                                    <!-- 2 -->
+                                    <div class="custom-control custom-checkbox checkbox my-2">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck7">
+                                        <label class="custom-control-label" for="customCheck8">Administrator</label>
+                                      </div>
+                                      <!-- 3 -->
+                                      <div class="custom-control custom-checkbox checkbox my-2">
+                                          <input type="checkbox" class="custom-control-input" id="customCheck8">
+                                          <label class="custom-control-label" for="customCheck8">Administrator</label>
+                                        </div>
+                                        <!-- 4 -->
+                                        <div class="custom-control custom-checkbox checkbox my-2">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck9">
+                                            <label class="custom-control-label" for="customCheck9">Administrator</label>
+                                          </div>
+                                          <!-- 5 -->
+                                          <div class="custom-control custom-checkbox checkbox my-2">
+                                              <input type="checkbox" class="custom-control-input" id="customCheck10">
+                                              <label class="custom-control-label" for="customCheck10">Administrator</label>
+                                            </div>
+                                            <!-- 6 -->
+                                            <div class="custom-control custom-checkbox checkbox my-2">
+                                                <input type="checkbox" class="custom-control-input" id="customCheck12">
+                                                <label class="custom-control-label" for="customCheck12">Administrator</label>
+                                              </div>
                                 </div>
-                                 
+
                             </div>
+                            <!-- button -->
+                              <div class="d-flex my-3">
+                                <button class="btn btn-createrole"><a href="" class="text-white">CREATE</a></button>
+                                <button class="btn">CANCEL</button>
+                              </div>
+                            <!-- buttton end -->
+                              </div>
+                              <div class="col-sm-6 offset-sm-2 d-none d-md-block">
+                                  <img src="image/doctors.png" alt="" style="padding-top:180px;">
+                              </div>
+                              
+                                    
+                            </div>
+
+                      
+                          
                         </div>
+
+                </div>
+                   <!--close  -->
             </main>
         </div>
       

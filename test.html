@@ -7,81 +7,115 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <title>Hello, world!</title>
     <style>
-      .back{
-        background-color: #f7f7f7;
-       
+      body{
+        font-family: 'Open Sans', sans-serif;
+        color: #4a4a4a;
       }
-  .headx{
-    font-size: 20px;
-    color:#0091d9;
-  }
-     .big-font{
-       font-size: 15px;
-       font-weight:700;
-     }
-     .small-font2{
-       font-size: 14px;
-       font-weight: normal;
-       color:#0091d9;
-      
-     }
-     .small-font3{
-       font-size: 14px;
-       font-weight: normal;
-       Color:#00d200;
-      
-     }
-     .small-font4{
-       font-size: 14px;
-       font-weight: normal;
-       color:#ab192d;
-     }
-     .btn-blue{
-       background-color: #4286f4;
-      margin-top:40px;
-      margin-bottom:40px;
-      color:white;
-      font-size: 15px;
-      height: 48px;
-     }
+      .spacecol{
+        padding-left:140px;
+      }
+      @media only screen and (max-width: 600px) {
+        .spacecol{
+        padding-left:40px;
+      }
+}
+      .sitebanner{
+        height: 639px;
+  background-image: linear-gradient(to left, #4a00e0, #707bea);
+      }
+      .type0{
+        font-size: 32px;
+  font-weight: 600;
+  padding: 150px 0px 51px 0px;
+ 
+      }
+      .type1{
+        font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  padding-bottom: 16px;
+      }
+      .type2{
+        line-height: 1.5;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+      }
+      .find{
+        padding-right: 31px;
+      }
+      .widebg{
+        background: url("image/mapp.jpg")
+      }
     </style>
   </head>
   <body>
-   
-      <div class="container back">
-        <p class="text-center headx pt-5">Types of matter</p>
-          <div class="row pt-3">
-            
-            <div class="col-sm-4">
-              <p class="text-center small-font2"><i class="far fa-clock"></i></p>
-                
-              <p class="text-center small-font2">Duration</p>
-              <p class="text-center big-font">Not timed</p>
-            </div>
-            <div class="col-sm-4">
-               <p class="text-center small-font3"> <i class="fas fa-check"></i></p>
-                <p class="text-center small-font3">Pass Grade</p>
-                <p class="text-center big-font">75%</p>
-            </div>
-            <div class="col-sm-4">
-               <p class="text-center small-font4"><i class="fas fa-exclamation-triangle"></i></p>
-                <p class="text-center small-font4">Due date</p>
-                <p class="text-center big-font">NA</p>
-            </div>
-            <div class="col-sm-4 ">
-                <p class="text-center big-font pt-4">DESCRIPTION:</p>
-                <p class="text-center small-font1">The types of matter</p>
-              </div>
-              <div class="col-sm-8">
-                <!-- place your description here -->
-              </div>
+
+    <div class="container-fluid sitebanner">
+       
+      <div class="row">
+         
+        <div class="col-sm-6 col-xs-12 spacecol">
+         <h5 class="text-white type0">
+            HOW IT WORKS
+         </h5>
+        
+         <div class="media">
+          <img class="mr-3" src="image/find.png" alt="Generic placeholder image">
+          <div class="media-body">
+            <h5 class="mt-0 text-white type1">Find Lawyers at fingertip</h5>
+           <p class="type2 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet iaculis nibh. Morbi mollis leo augue, vestibulum feugiat justo tincidunt sed</p> 
           </div>
-          <button class="btn btn-block btn-blue">START</button>
-          <div style="height:30px;"></div>
+        </div>
+        
+        </div>
+       
+        <div class="col-sm-6">
+          <img src="image/howitwork.png" alt="" class="d-none d-sm-block d-md-block pt-5">
+        </div>
       </div>
+    </div>
+    <div class="container-fluid widebg">
+      <div class="container pt-5">
+        <div class="row">
+          <div class="col-sm-5 mr-auto mb-5">
+            <div class="media">
+              <img class="mr-3" src="image/setup.png" alt="Generic placeholder image">
+              <div class="media-body">
+                <h5 class="mt-0 type1">Set up co-operate profiles</h5>
+                <p class="type2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet iaculis nibh. Morbi mollis leo augue, vestibulum feugiat justo tincidunt sed</p> 
+              </div>
+            </div>
+          </div>
+          <div class="w-100"></div>
+          <!-- 2 -->
+         <div class="col-sm-5 offset-sm-7 mb-5">
+          <div class="media">
+            <div class="media-body">
+              <h5 class="mt-0 mb-1 type1">Make extra Income</h5>
+            <p class="type2">  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet iaculis nibh. Morbi mollis leo augue, vestibulum feugiat justo tincidunt sed</p>
+            </div>
+            <img class="ml-3" src="image/credit.png" alt="Generic placeholder image">
+          </div>
+         </div>
+         <!-- 3 -->
+         <div class="col-sm-5 mr-auto">
+          <div class="media">
+            <img class="mr-3" src="image/getdoc.png" alt="Generic placeholder image">
+            <div class="media-body">
+              <h5 class="mt-0 type1">Get legal document</h5>
+            <p class="type2">  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet iaculis nibh. Morbi mollis leo augue, vestibulum feugiat justo tincidunt sed</p>
+            </div>
+          </div>
+        </div>
+        </div>
+          
+      </div>
+    </div>
+  
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -89,7 +123,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
-
 </html>
 
 
