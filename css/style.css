@@ -487,6 +487,22 @@ label {
   background-color: #45d88e;
 }
 
+.content1 button.newsig {
+  width: 160px;
+  height: 49px;
+  border-radius: 4px;
+  background-color: #4a90e2;
+  font-size: 12px;
+}
+
+.content1 input.siggy {
+  width: 250px;
+  height: 54px;
+  border-radius: 4px;
+  border: solid 1px #e5e5e5;
+  background-color: #fff;
+}
+
 .content1 input {
   height: 54px;
   border: solid 1px #ebebf2;
@@ -716,6 +732,14 @@ label {
   background-color: #fdfdfd;
 }
 
+.content2 .rowpad select.long {
+  min-width: 350px;
+  height: 48px;
+  border-radius: 3px;
+  border: solid 1px #e5e5e5;
+  background-color: #fdfdfd;
+}
+
 .content2 .rowlen {
   height: 200px;
   overflow-y: scroll;
@@ -758,6 +782,26 @@ label {
 .content2 button.btn-transp a {
   text-decoration: none;
   color: #45526b;
+}
+
+.content2 p.docsname {
+  font-size: 16px;
+}
+
+.content2 p.docsdept {
+  font-size: 12px;
+  font-weight: 300;
+  color: rgba(69, 82, 107, 0.5);
+}
+
+.content2 p.smallcolor {
+  font-size: 12px;
+  color: rgba(69, 82, 107, 0.5);
+  padding-top: 8px;
+}
+
+.content2 a.dropdown-item {
+  font-size: 12px;
 }
 
 .pag p {
@@ -887,6 +931,14 @@ label {
   font-weight: 600;
 }
 
+.certform input {
+  height: 48px;
+  font-size: 13px;
+  border-radius: 3px;
+  background-color: #fdfdfd;
+  border: solid 1px #e5e5e5;
+}
+
 .certform a.nav-link {
   font-size: 13px;
   color: #45526b;
@@ -915,6 +967,20 @@ label {
   color: #d8d8d8;
   font-size: 14px;
   opacity: 0.4;
+}
+
+.certform button.btn-cancel {
+  font-size: 12px;
+  background: white;
+}
+
+.certform button.btn-submit {
+  width: 140px;
+  font-size: 12px;
+  color: white;
+  height: 49px;
+  border-radius: 4px;
+  background-color: #45d88e;
 }
 
 .certform .certhead {
@@ -946,6 +1012,13 @@ label {
 .certform .certbody {
   padding-left: 10%;
   padding-right: 10%;
+}
+
+.certform .certbody input {
+  height: 54px;
+  border-radius: 3px;
+  border: solid 1px #ebebf2;
+  background-color: #fdfdfd;
 }
 
 .certform .certbody h5 {
@@ -1085,6 +1158,108 @@ label {
 .certform p.daate {
   font-family: CourierNewPSMT;
   opacity: 0.4;
+}
+
+.contentset {
+  margin-top: 30px;
+  height: 95vh;
+  padding: 32px;
+}
+
+.contentset a {
+  color: #45d88e;
+}
+
+.contentset input {
+  height: 54px;
+  border-radius: 3px;
+  border: solid 1px #ebebf2;
+  background-color: #f5f5f5;
+}
+
+.contentset ::-webkit-input-placeholder {
+  font-size: 13px;
+  opacity: 0.4;
+}
+
+.contentset :-ms-input-placeholder {
+  font-size: 13px;
+  opacity: 0.4;
+}
+
+.contentset ::-ms-input-placeholder {
+  font-size: 13px;
+  opacity: 0.4;
+}
+
+.contentset ::placeholder {
+  font-size: 13px;
+  opacity: 0.4;
+}
+
+.contentset p.email {
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.contentset p.changeemail {
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.8px;
+}
+
+.contentset p.password {
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.contentset p.changepassword {
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.8px;
+}
+
+.contentset button.btn-cancel {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.contentset button.btn-submit {
+  color: white;
+  font-size: 12px;
+  width: 150px;
+  height: 48px;
+  border-radius: 3px;
+  background-color: #45d88e;
+}
+
+.contentset input.form-control-file {
+  background: white;
+  border: 0px;
+}
+
+.contentset button.btn-transp {
+  background-color: white;
+  color: #45526b;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.contentset button.btn-create {
+  font-size: 13px;
+  color: white;
+  width: 140px;
+  height: 49px;
+  border-radius: 4px;
+  background-color: #45d88e;
 }
 
 /*# sourceMappingURL=style.css.map */
