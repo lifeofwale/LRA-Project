@@ -970,6 +970,23 @@ select{
             font-size: 12px;
             opacity: 0.6;
         }
+
+    
+            input#statictext{
+                background-color:white;
+                border:0px;
+                width: 100%;
+            }
+            input#inputdocname{
+                width: 236px;
+                position: relative;
+            }
+            button.btn-mode{
+                position: absolute;
+                top:35px;
+                right:150px;
+            }
+        
     }
     .stamp{
         padding-top:40px;
@@ -1066,8 +1083,15 @@ select{
     a{
         color:$customtextcolor;
     }
+    select{
+        font-size: 13px;
+        height: 54px;
+        border-radius: 3px;
+        border: solid 1px #ebebf2;
+        background-color: #f5f5f5;
+          }
     input{
-        
+        font-size: 13px;
   height: 54px;
   border-radius: 3px;
   border: solid 1px #ebebf2;
@@ -1135,5 +1159,23 @@ select{
         height: 49px;
         border-radius: 4px;
         background-color: #45d88e;
+    }
+    button.btn-gen{
+        margin-top:20px;
+        font-size: 13px;
+        color:white;
+        width: 20%;
+        height: 49px;
+        border-radius: 4px;
+        background-color: #45d88e;
+    }
+    button.btn-export{
+        margin-top:20px;
+        font-size: 13px;
+        color:$textcolor;
+        width: 20%;
+        height: 49px;
+        border-radius: 4px;
+        background-color: white;
     }
 }

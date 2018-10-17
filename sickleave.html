@@ -186,50 +186,62 @@
                                 <p class="text-left intro">I beg to inform you that </p>
                              
                                 <form action="" id="medical">
-
-                                        <div class="form-inline">
-                                                <input type="text" class="form-control" placeholder="|write something here">
-                                                <label for="gender">Is unable to attend his / her duty in consequence of illness.</label>
-                                            </div> 
                                     <div class="row details">
-                                        <div class="col-sm-6">
-                                            <div class="form-group">
+                                        <div class="form-group col-sm-5">
+                                            <label for="title">Title</label>
+                                                <input type="text" class="form-control" placeholder="|write something here">
+                                             
+                                              </div> 
+                                              <div class="form-group col-sm-6 align-self-center pt-4">
+                                                  <input type="text" readonly class="form-control-plaintext plaintext" id="statictext" value="Is unable to attend his / her duty in consequence of illness.">
+                                              </div>
+                                            </div>
+                                     
+                                          <div class="row details">
+                                       
+                                            <div class="form-group col-sm-6">
                                                 <label for="gender">Date of Placing on sick leave</label>
                                                 <input type="text" class="form-control" placeholder="|write something here">
                                             </div>
-                                            <div class="form-group">
+                                            <!--  -->
+                                            <div class="form-group col-sm-6">
+                                                <label for="gender8">Probable duration of illness</label>
+                                                <input type="text" class="form-control" id="gender8">
+                                            </div>
+                                            <!--  -->
+                                            <div class="form-group col-sm-6">
                                                     <label for="gender2">Department</label>
                                                     <input type="text" class="form-control" id="gender2">
                                                 </div>
-                                 
-                                                <div class="form-inline">
+                                                <!--  -->
+
+                                                <div class="form-group col-sm-6">
+                                                    <label for="gender9">Unit</label>
+                                                    <input type="text" class="form-control" id="gender9">
+                                                </div>
+                                                <!--  -->
+                                                <div class="form-group col-sm-6">
                                                         <div class="form-group">
-                                                        <label for="inputdocname" class="docssign"></label>
+                                                        <label for="inputdocname" class="docssign">Registrar Name and Signature</label>
                                                           <input type="text" class="form-control readdocname" id="inputdocname" value="Dr Francis Oyelemopo">
                                                         </div>
-                                                        <button type="button" class="btn btn-link" data-toggle="modal" data-target="#exampleModal" id="addsigna">
+                                                        <button type="button" class="btn btn-link btn-mode" data-toggle="modal" data-target="#exampleModal" id="addsigna">
                                                                 <i class="fas fa-plus-circle"></i>
                                                               </button>
                                                       </div>            
-                                               </div>
+                                              
                                         <!-- form split -->
-                                        <div class="col-sm-6">
-                                                <div class="form-group">
-                                                        <label for="gender8">Probable duration of illness</label>
-                                                        <input type="text" class="form-control" id="gender8">
-                                                    </div>
-                                                    <div class="form-group">
-                                                            <label for="gender9">Unit</label>
-                                                            <input type="text" class="form-control" id="gender9">
-                                                        </div>
-                                                        <div class="form-group">
+                                       
+                                           
+                                                   
+                                                        <div class="form-group col-sm-6">
                                                                 <label for="gender10">Unit</label>
                                                                 <input type="text" class="form-control" id="gender10">
                                                             </div>
                                                           
                                                                    
 
-                                            </div>
+                                          
                                     </div>
                                 </form>
 
@@ -403,10 +415,10 @@
           </div>
         </div>
       </div>
+      <!-- button -->
+      <button class="btn btn-preview float-left mb-5"> PREVIEW</button>
                                         </div>
-                                        <div class="col-sm-5">
-                                            <button class="btn btn-preview float-right"> PREVIEW</button>
-                                            </div>
+                                       
                                     </div>
                             </div>
                         </div>
