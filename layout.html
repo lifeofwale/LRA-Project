@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
     <title>Merd|Cert</title>
   </head>
   <body class="h-100">
@@ -28,9 +30,9 @@
                   <a href="#" class="nav-link sidemenu-title">Navigation</a>
                 </li>
 
-                <li class="nav-item w-100">
+                <li class="nav-item w-100 active">
                     <a href="#" class="nav-link sidemenulink">
-                       <span><img src="img/dashboard.svg"  class="iconst" alt="dashboard_icon"></span>
+                       <span><img src="img/dashboard.svg"  class="iconst" alt="dashboardicon"></span>
                       <span class="menutitle">Dashboard</span>
                       <i class="fas fa-angle-right float-right"></i>
                     </a>
@@ -40,7 +42,7 @@
                 <li class="nav-item w-100">
                    
                   <a  class="nav-link sidemenulink" href="#req-basic" data-toggle="collapse" aria-expanded="false" aria-controls="req-basic">
-                    <span><img src="img/request.svg" class="iconst"  alt="request_icon"></span>
+                    <span><img src="img/request.svg" class="iconst"  alt="dashboardicon"></span>
                       <span class="menutitle">Request
                       </span>
                       <span class="menutitle badge badge-req">10+</span> 
@@ -72,7 +74,7 @@
                 <li class="nav-item w-100">
                    
                     <a  class="nav-link sidemenulink" href="#pay-basic" data-toggle="collapse" aria-expanded="false" aria-controls="pay-basic">
-                      <span><img src="img/payment.svg" class="iconst" alt="payment_icon"></span>
+                      <span><img src="img/payment.svg" class="iconst" alt="dashboardicon"></span>
                         <span class="menutitle">Payment
                         </span>
                         <span class="menutitle badge badge-pay">new</span> 
@@ -96,7 +98,7 @@
                   <!--  -->
                   <li class="nav-item w-100">
                       <a href="#" class="nav-link sidemenulink">
-                        <span><img src="img/usermanage.svg" class="iconst" alt="usermanagement_icon"></span>
+                        <span><img src="img/usermanage.svg" class="iconst" alt="dashboardicon"></span>
                         <span class="menutitle">User Management</span>
                       
                       </a>
@@ -104,14 +106,14 @@
                   <!--  -->
                   <li class="nav-item w-100">
                       <a href="#" class="nav-link sidemenulink">
-                        <span><img src="img/sign.svg" class="iconst" alt="signatures_icon"></span>
+                        <span><img src="img/sign.svg" class="iconst" alt="dashboardicon"></span>
                         <span class="menutitle">E-Signatures</span>
                       </a>
                   </li>
                   <!--  -->
-                  <li class="nav-item w-100 active">
+                  <li class="nav-item w-100">
                       <a href="#" class="nav-link sidemenulink">
-                        <span><img src="img/set.svg" class="iconst" alt="settings_icon"></span>
+                        <span><img src="img/set.svg" class="iconst" alt="dashboardicon"></span>
                         <span class="menutitle">Settings</span>
                       </a>
                   </li>
@@ -132,9 +134,9 @@
                                         <span class="navbar-toggle-bar bar3"></span>
                                       </button>
                                 </div> -->
-                         <li class="nav-item d-flex under">
-                           <a href="" class="nav-link align-self-center pl-0 pb-0"> <span><img src="img/requestpack.svg" width="24px" height="24px" style="margin-right:1.35rem"  alt="requestpage_icon"></span>SETTINGS</a>
-                         </li>
+                                <li class="nav-item d-flex under">
+                                    <a href="" class="nav-link align-self-center pl-0 pb-0"> <span><img src="img/requestpack.svg" width="24px" height="24px" style="margin-right:1.35rem"  alt="requestpage_icon"></span>LAYOUT</a>
+                                  </li>
                        </ul>
                        <ul class="nav d-flex align-content-stretch nav-pan">
                           <div class="navbar-toggle d-inline">
@@ -144,46 +146,48 @@
                                 <span class="navbar-toggle-bar bar3"></span>
                               </button>
                         </div>
+
                         <li class="nav-item d-flex align-content-stretch mx-2">
-                            <a href="" class="align-self-center mic"  class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-bullhorn"></i><span><div class="rednote"></div></span></a>
-                            <ul class="dropdown-menu dropdown-menu-right px-2 shadow mt-2 notify">
+                          <a href="" class="align-self-center mic"  class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-bullhorn"></i><span><div class="rednote"></div></span></a>
+                          <ul class="dropdown-menu dropdown-menu-right px-2 shadow mt-2 notify">
+                            <li>
+                              <div class="d-flex flex-row justify-content-between" style="height:18px;">
+                                <p>APP NOTIFICATION</p>
+                                <a href="" class="badge badge-note">VIEW ALL</a>
+                              </div>
+                            </li>
+                            <li class="dropdown-divider"></li>
                               <li>
-                                <div class="d-flex flex-row justify-content-between" style="height:18px;">
-                                  <p>APP NOTIFICATION</p>
-                                  <a href="" class="badge badge-note">VIEW ALL</a>
-                                </div>
+                                <a href="#" class="top-text-block">
+                                  <div class="top-text-heading">You have <b>3 new themes</b> trending</div>
+                                  <div class="top-text-light">15 minutes ago</div>
+                                </a> 
                               </li>
                               <li class="dropdown-divider"></li>
-                                <li>
-                                  <a href="#" class="top-text-block">
-                                    <div class="top-text-heading">You have <b>3 new themes</b> trending</div>
-                                    <div class="top-text-light">15 minutes ago</div>
-                                  </a> 
-                                </li>
-                                <li class="dropdown-divider"></li>
-                                <li>
-                                  <a href="#" class="top-text-block">
-                                    <div class="top-text-heading">New asset recommendations in <b>Gaming Laptop</b></div>
-                                    <div class="top-text-light">2 hours ago</div>
-                                  </a> 
-                                </li>
-                                <li class="dropdown-divider"></li>
-                                <li>
-                                  <a href="#" class="top-text-block">
-                                    <div class="top-text-heading">New asset recommendations in <b>5 themes</b></div>
-                                    <div class="top-text-light">4 hours ago</div>
-                                  </a> 
-                                </li>
-                                <li class="dropdown-divider"></li>
-                                <li>
-                                  <a href="#" class="top-text-block">
-                                    <div class="top-text-heading">Assets specifications modified in themes</div>
-                                    <div class="top-text-light">4 hours ago</div>
-                                  </a> 
-                                </li>
-                               
-                              </ul>
-                          </li>
+                              <li>
+                                <a href="#" class="top-text-block">
+                                  <div class="top-text-heading">New asset recommendations in <b>Gaming Laptop</b></div>
+                                  <div class="top-text-light">2 hours ago</div>
+                                </a> 
+                              </li>
+                              <li class="dropdown-divider"></li>
+                              <li>
+                                <a href="#" class="top-text-block">
+                                  <div class="top-text-heading">New asset recommendations in <b>5 themes</b></div>
+                                  <div class="top-text-light">4 hours ago</div>
+                                </a> 
+                              </li>
+                              <li class="dropdown-divider"></li>
+                              <li>
+                                <a href="#" class="top-text-block">
+                                  <div class="top-text-heading">Assets specifications modified in themes</div>
+                                  <div class="top-text-light">4 hours ago</div>
+                                </a> 
+                              </li>
+                             
+                            </ul>
+                        </li>
+
                         <li class="nav-item d-flex drop-down">
                           <a href="#" id="logout-basic" class="nav-link align-self-center dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Adewale Jr</a>
                           <ul class="dropdown-menu border-0 shadow" aria-labelledby="logout-basic">
@@ -198,89 +202,6 @@
                     </nav>
                   </div>
             </header>
-
-
-            <!-- settings -->
-      
-<!-- endseetings -->
-<!-- contentsetbegin -->
-<div class="container  bg-white contentset mb-5 shadow">
-    <div class="mb-5">
-     <p class="email text-uppercase">Change Email Address</p>
-     <p class="changeemail">Do you want to change your registered email address? <span><a href="" data-toggle="modal" data-target="#ModalCenter2">change here</a></span></p>
-     <!-- Modal -->
-<div class="modal fade" id="ModalCenter2" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle2" aria-hidden="true">
-<div class="modal-dialog modal-dialog-centered" role="document">
-<div class="modal-content">
-<div class="modal-header border-0">
-<h5 class="modal-title" id="ModalCenterTitle2"></h5>
-<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-<span aria-hidden="true">&times;</span>
-</button>
-</div>
-<div class="modal-body px-5">
-<p class="text-center text-uppercase">Change Email Address</p>
-<div class="form-group">
-<label for="InputNewEmail1">New Email Address</label>
-<input type="email" class="form-control" id="InputNewEmail1" aria-describedby="emailHelp" placeholder="|yourmail@email.com">
-</div>
-
-
-</div>
-<div class="modal-footer d-flex justify-content-center border-0">
-<button type="button" class="btn btn-cancel" data-dismiss="modal">CANCEL</button>
-<button type="button" class="btn btn-submit">SUBMIT</button>
-</div>
-</div>
-</div>
-</div>
-    </div>
-  
-    <div>
-     <p class="password">Change Password</p>
-     <p class="changepassword">Do you want to change your password?  <span><a href="" data-toggle="modal" data-target="#ModalCenter">change here</a></span></p>
-     <!-- Button trigger modal -->
-
-
-<!-- Modal -->
-<div class="modal fade" id="ModalCenter" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
-<div class="modal-dialog modal-dialog-centered" role="document">
-<div class="modal-content">
-<div class="modal-header border-0">
-<h5 class="modal-title" id="ModalCenterTitle"></h5>
-<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-<span aria-hidden="true">&times;</span>
-</button>
-</div>
-<div class="modal-body px-5">
-<p class="text-center text-uppercase">Change Password</p>
-<div class="form-group">
-<label for="InputEmail1">Old Password</label>
-<input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="|Enter old password">
-</div>
-<div class="form-group">
-<label for="InputEmail2">New Password</label>
-<input type="email" class="form-control" id="exampleInputEmail2" aria-describedby="emailHelp" placeholder="|Enter new password">
-</div>
-<div class="form-group">
-<label for="InputEmail3">Confirm New Password</label>
-<input type="email" class="form-control" id="InputEmail3" aria-describedby="emailHelp" placeholder="|Confirm new password">
-</div>
-
-</div>
-<div class="modal-footer d-flex justify-content-center border-0">
-<button type="button" class="btn btn-cancel" data-dismiss="modal">CANCEL</button>
-<button type="button" class="btn btn-submit">SUBMIT</button>
-</div>
-</div>
-</div>
-</div>
-    </div>
-  
-   
-       
-     </div>
-     <!-- contentset -->
           </main>
       </div>
      </div>
